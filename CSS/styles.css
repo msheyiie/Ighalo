@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;  
+}
+
+html {
+    font-size: 62.5%;   /*If browser font-size is 16px, this takes 10px*/
+}
+
+body {
+    font-family: Karla, sans-serif;
+    background: #08071fd8;
+    color: white;
+    padding: 0.5rem 2rem ;
+    max-width: 1440vw;
+}
+
+.wrapper{
+    display: flex;
+   
+    align-items: center;
+    height: 100vh;
+    
+   
+}
+
+.Sect{
+    display: flex;
+    flex-direction: column;
+    margin:1rem;
+    
+}
+
+p{
+    color: rgba(255, 255, 255, 0.76);
+    line-height: 1.4rem;
+    font-size: 1.1rem;
+}
+
+img{
+    width: 13rem;
+    height: 7em;
+    margin-right: 1rem;
+    
+}
+
+.sprint_wrap{
+    display: flex;
+    border:1px solid white;
+    background-color: rgb(197, 43, 69);
+    flex-basis: auto;
+    margin-top: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    
+}
+
+.sprint_text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0.2rem;
+}
+
+.header_text{
+font-weight: 900;
+font-style: italic;
+letter-spacing: 0.04rem;
+margin-bottom: 0.4rem;
+color: white;
+}
+
+
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: auto;
+    
+}
+
+h1{
+    font-size: 4.5rem;
+    font-style: italic;
+    text-shadow: 1px 4px 2px black;
+}
+
+h2{
+    font-size: 1rem;
+    text-shadow: 0.5px 2px 1px black;
+    margin-bottom: 0.3rem;
+}
+
+h3{
+    font-size: 0.65rem;
+    text-shadow: 0.5px 1px 1px black;
+    margin-bottom: 0.4rem;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+span{
+    color: rgb(197, 43, 69);
+}
+
+@media (max-width: 1105px) {
+    h1{
+        font-size: 4rem;
+    }
+}
+@media (max-width: 1020px) {
+    .wrapper{
+        flex-direction: column;
+
+    }
+    .Sect{
+            margin-top: 1.5rem;
+        }
+    
+    }
+
+@media (max-width: 394px) {
+        h1{
+            font-size: 3.8rem;
+        }
+        
+        }
+
+@media (max-width: 340px) {
+            h1{
+                font-size: 3.4rem;
+            }
+          img{
+            height: 15em;
+          }
+            
+        }
